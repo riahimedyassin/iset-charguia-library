@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="libraycontorl.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISET-CH Library | ALL Books</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg nav-bg ">
+    <div class="container-fluid">
+      <a class="navbar-brand hover" href="home.html">ISET-CH Library
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <div class="navbar-text"></div>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <div class="margin-search">
+            <input class="form-control me-2 margin-search" type="search" placeholder="Find a Book " aria-label="Search">
+          </div>
+        </form>
+        <form class="d-flex">
+          <a style="color:black" href="https://www.instagram.com/isetch_google_club/" class="nav-link active"
+            target="_blank">Contact the support</a>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col title-div">
+      <h1 class="m-md-3 m-sm-1 ">All Books</h1>
+    </div>
+    <div class="col-3"></div>
+  </div>
+  <div class="categorie m-md-5 m-sm-3">
+    <div class=" categ ">
+      <div class="row m-md-5 m-sm-3">
+        <div class="col title align-logo">Categories</div>
+      </div>
+      <div class="row m-md-5 m-sm-3 ">
+        <div class="col icons-marg">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-3" role="group" aria-label="First group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button"
+                aria-pressed="true">BUISNESS</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="First group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">RESEAU</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="Second group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">TI</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="Third group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">French</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="fourth group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button"
+                aria-pressed="true">Available</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="fourth group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">Linux</a>
+            </div>
+            <div class="btn-group me-3 " role="group" aria-label="fourth group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">Web</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="fourth group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">Mobile</a>
+            </div>
+            <div class="btn-group me-3" role="group" aria-label="fourth group">
+              <a href="#" class="btn btn-primary " role="button" data-bs-toggle="button" aria-pressed="true">ADD</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row m-md-5 m-sm-3">
+    <div class="row icons-marg">
+      <div class="col-4 ">
+        <a href="add.html" class="add-del-mod ">
+          <label for="">Add</label>
+          <img src="icons/ajouter.png" alt="" id="add" class="icon-control"></a>
+      </div>
+      <div class="col-4">
+        <a href="" class="add-del-mod ">
+          <label for="">Delete</label>
+          <img src="icons/delete.png" alt="" id="add" class="icon-control-2"></a>
+      </div>
+      <div class="col-4">
+        <a href="" class="add-del-mod ">
+          <label for="">Modify</label>
+          <img src="icons/edit.png" alt="" id="add" class="icon-control-2"></a>
+      </div>
+    </div>
+    <table class="table table-light table-bordered table-border-abooks">
+      <thead class="thead table-warning">
+        <tr class="thead">
+          <th></th>
+          <th>Title</th>
+          <th>Refrence</th>
+          <th>Availability</th>
+          <th>Requests</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td class="book-link">Mark</td>
+          <td>96351425899</td>
+          <td class="available">Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td class="book-link">Jacob</td>
+          <td>96351425899</td>
+          <td class="available">Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td class="book-link">Larry the Bird</td>
+          <td>96351425899</td>
+          <td class="notavailable">Not Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td class="book-link">Jacob</td>
+          <td>96351425899</td>
+          <td class="available">Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td class="book-link">Jacob</td>
+          <td>96351425899</td>
+          <td class="available">Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td class="book-link">Jacob</td>
+          <td>96351425899</td>
+          <td class="available">Available</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">13</th>
+          <td class="book-link">Jacob</td>
+          <td>96351425899</td>
+          <td class="available">Available</td>
+          <td>@mdo</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    <div class="row rep-cont-align">
+        <div class="col align-logo">
+            <img src="bib-logo.png" alt="" class="iset-lib">
+        </div>
+    </div>
+    <div class="row rep-cont-align">
+        <div class="col-md-4 col-sm-2 align-logo"></div>
+        <div class="col">
+            <a href="https://www.instagram.com/isetch_google_club/" class="contact-rep " target="_blank"
+                title="Don't hesitate asking us !">Contact the support</a>
+        </div>
+        <div class="col">
+            <a href="https://www.instagram.com/isetch_google_club/" class="contact-rep left"
+                title="We will fix the problem ASAP">Report a problem</a>
+        </div>
+        <div class="col-md-4 col-sm-2"></div>
+</footer>
+
+
+
+</body>
+
+</html>
